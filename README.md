@@ -23,3 +23,25 @@
 8. Type git remote add origin (repo link copied in step 2 of step A) (press enter)
 9. Type git push -u origin main (press enter)
 10. Its Done
+
+# C. Steps If you want to collaborate in a project
+1. Create another branch from main branch
+2. IF you want to do things in group, need to approve collaborators. So
+3. after step 1, click setting in the repo itself.
+4. then collaborators and invite via their username, email.
+5. they accept and yo go.
+6. after they accept your invite. they will posses the same window for the particular project.
+7. They will fork the project.
+
+# D. Steps if you alter your project in editor , then hpw will u update.
+1. open new terminal
+2. clone this project in your system.
+3. type git status
+4. Do the changes whatever., add or edit
+5. Type git add .
+6. Type git commit -m "messge"
+7. type git push
+8. After pushing come to github, click on contribution drop down button
+9. there will be 'create a pull request', click it
+10. Owner will review it, then create pull request by adding some description.
+11. Click merge pull request
